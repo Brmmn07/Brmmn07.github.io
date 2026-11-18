@@ -1,0 +1,11 @@
+:root { --bg: #f7f4ee; --text: #1f1d1a; --muted: #6b665e; --link: #8a3b12; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #1b1a18; --text: #ece7de; --muted: #a39d92; --link: #e0915c; }
+}
+body { margin: 0; background: var(--bg); color: var(--text);
+       font: 17px/1.6 Georgia, "Times New Roman", serif; }
+main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+h1 { font-size: 2rem; margin: 0 0 16px; }
+h2 { font-size: 1.15rem; margin: 28px 0 6px; }
+.meta { color: var(--muted); font-size: .9rem; }
+a { color: var(--link); }
